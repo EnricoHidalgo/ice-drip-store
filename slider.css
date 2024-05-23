@@ -83,3 +83,18 @@
 #radio4:checked ~.navigation-auto .auto-btn4{
     background-color: #ca00ca;
 }
+@media only screen and (max-width:980px){
+    .ntcs{
+        color: rgb(18, 18, 18);
+        margin: 7.8889vh 0px 0px 0.9259vh;
+        width: 25%;
+    }
+    .ntcs h1{
+        font-size: 1em;
+        margin-bottom: 0.9259vh;
+    }
+    .ntcs p{
+        font-size: 1em;
+        text-align: justify;
+    }
+}

@@ -14,7 +14,7 @@
                          'prev prev prev'
                          'footer footer footer';
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 100vh 76vh 95vh 25vh;
+    grid-template-rows: 100vh 85vh 95vh 25vh;
 }
 .header{
     position: fixed;
@@ -67,20 +67,25 @@
     height: 100vh;
     background-image: url(PRONTAS/FUNDO_STREET_WEAR.png);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .logo2{
+    display: flex;
     margin-top: 4vw;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .logo2 img{
+    flex-direction: column;
     width: 35vw;
 }
 .logo2 p{
+    flex-direction: column;
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
     display: flex;
@@ -96,13 +101,9 @@
     background-color: antiquewhite;
     justify-content: space-evenly;
 }
-.slider, .ntcs{
-    justify-content: center;
-    align-items: center;
-}
 .ntcs{
     color: rgb(18, 18, 18);
-    margin: 16.6667vh 0vh 0vh 13.8889vh;
+    margin: 13.8889vh 0px 0px 0.9259vh;
     width: 35%;
 }
 .ntcs h1{
@@ -160,7 +161,7 @@
     margin-bottom: 1.8519vh;
 }
 .nclc{
-    font-size: 1.3em;
+    font-size: 1.9259vh;
     text-align: center;
 }
 .pic-btn{
@@ -173,13 +174,13 @@
     background-color: #8f1f8f;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
     transition: 0.8s;
     text-decoration: none;
 }
 .pic-btn a{
     text-decoration: none;
     color: antiquewhite;
+    font-size: 2.2222vh;
 }
 .pic-btn:hover{
     background-color: #ca00ca;
@@ -248,7 +249,6 @@
 }
 .footer img{
     height: 100%;
-    width: 13%;
 }
 .copy p{
     font-family: "Oswald", sans-serif;
@@ -256,3 +256,84 @@
     color: antiquewhite;
     font-size: 1.5em;
 }
+@media only screen and (max-width:1366px){
+    .ntcs{
+        color: rgb(18, 18, 18);
+        margin: 13.8889vh 0px 0px 0.9259vh;
+        width: 25%;
+    }
+    .ntcs h1{
+        font-size: 1.5em;
+        margin-bottom: 0.9259vh;
+    }
+    .ntcs p{
+        font-size: 1em;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:1000px){
+    .cmpre{
+        color: antiquewhite;
+        font-size: 2.5em;
+        margin-top: 3.7037vh;
+        text-shadow: -0.1852vh -0.1852vh 0 #000,  
+                      0.1852vh -0.1852vh 0 #000,  
+                     -0.1852vh 0.1852vh 0 #000,  
+                      0.1852vh 0.1852vh 0 #000;
+    }
+}
+@media only screen and (max-width:860px){
+    .nav{
+        font-size: 1em;
+    }
+        .ntcs{
+        color: rgb(18, 18, 18);
+        margin: 13.8889vh 0px 0px 0.9259vh;
+        width: 25%;
+    }
+    .ntcs h1{
+        font-size: 1.5em;
+        margin-bottom: 0.9259vh;
+    }
+    .ntcs p{
+        font-size: 1em;
+        text-align: justify;
+    }
+}
+    .cmpre{
+        color: antiquewhite;
+        font-size: 2em;
+        margin-top: 3.7037vh;
+        text-shadow: -0.1852vh -0.1852vh 0 #000,  
+                      0.1852vh -0.1852vh 0 #000,  
+                     -0.1852vh 0.1852vh 0 #000,  
+                      0.1852vh 0.1852vh 0 #000;
+    }
+@media only screen and (max-width:670px){
+    .ntcs{
+        color: rgb(18, 18, 18);
+        margin: 7.8889vh 0px 0px 0.9259vh;
+        width: 25%;
+    }
+    .ntcs h1{
+        font-size: 1em;
+        margin-bottom: 0.9259vh;
+    }
+    .ntcs p{
+        font-size: 1em;
+        text-align: justify;
+    }
+    .cmpre{
+        color: antiquewhite;
+        font-size: 1.5em;
+        margin-top: 3.7037vh;
+        text-shadow: -0.1852vh -0.1852vh 0 #000,  
+                      0.1852vh -0.1852vh 0 #000,  
+                     -0.1852vh 0.1852vh 0 #000,  
+                      0.1852vh 0.1852vh 0 #000;
+    }
+    .nav{
+        font-size: 1em;
+    }
+}
+
